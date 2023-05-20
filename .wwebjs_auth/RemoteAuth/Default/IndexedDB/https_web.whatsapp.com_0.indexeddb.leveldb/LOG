@@ -1,0 +1,7 @@
+2023/05/20-15:31:01.266 59b8 Reusing MANIFEST C:\Users\genar\Documents\Pets\E-commerce\New\backs\wpp-fun\.wwebjs_auth\RemoteAuth\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/05/20-15:31:01.278 59b8 Recovering log #35
+2023/05/20-15:31:01.605 59b8 Reusing old log C:\Users\genar\Documents\Pets\E-commerce\New\backs\wpp-fun\.wwebjs_auth\RemoteAuth\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/000035.log 
+2023/05/20-19:48:16.815 59b8 Level-0 table #40: started
+2023/05/20-19:48:16.893 59b8 Level-0 table #40: 1151982 bytes OK
+2023/05/20-19:48:16.900 59b8 Delete type=0 #35
+2023/05/20-19:58:56.985 54ec Compacting 1@1 + 1@2 files
