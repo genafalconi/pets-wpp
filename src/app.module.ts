@@ -2,9 +2,11 @@ import { Module } from '@nestjs/common';
 import { BotModule } from './bot/bot.module';
 import { ConfigModule } from '@nestjs/config';
 import { MongooseModule } from '@nestjs/mongoose';
+import { FirebaseConfigModule } from './firebase/firebase.config.module';
 
 @Module({
   imports: [
+    FirebaseConfigModule,
     ConfigModule.forRoot({
       envFilePath: `env/${process.env.NODE_ENV || 'dev'}.env`,
     }),
@@ -20,7 +22,5 @@ import { MongooseModule } from '@nestjs/mongoose';
     }),
     BotModule,
   ],
-  controllers: [],
-  providers: [],
 })
 export class AppModule {}
